@@ -11,9 +11,6 @@ compile:
 link:
 	g++ -g -Wall -Weffc++ -std=c++11 -o bin/warehouse bin/*.o
 
-# valgrind:
-# 	valgrind --leak-check=full ./bin/warehouse 
-
 clean:
 	rm -rf bin/*.o bin/warehouse
 	clear
